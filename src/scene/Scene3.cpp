@@ -86,7 +86,7 @@ void Scene3::update(){
 //--------------------------------------------------------------
 void Scene3::draw(){
     cam.begin();
-    ofBackground(ofColor::fromHsb(fft.getLowVal()*300, fft.getMidVal()*1000, fft.getHighVal()*1000,300));
+    ofBackground(ofColor::fromHsb(fft.getLowVal()*400, fft.getMidVal()*1000, 300,300));
     // ::fromHsb(slider[4]*2,slider[5]*2,slider[6],175*2)
     
     //ofDrawRectangle(0, 0,-1000, ofGetWidth(), ofGetHeight());

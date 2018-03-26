@@ -22,7 +22,7 @@ void Scene2::setup(){
     
     //int sphereSize =3;
     for(int i=0; i<200;i++) {
-        mSphere[i].setPosition(ofRandom(-400,400),ofRandom(-300,300),ofRandom(-500,500));
+        mSphere[i].setPosition(ofRandom(-400,400),ofRandom(-300,300),ofRandom(-300,300));
         // mSphere[i].set(sphereSize,3);
     }
     korg.setup();
@@ -71,11 +71,11 @@ void Scene2::draw(){
     ofDrawRectangle(0,0,ofGetWidth(),ofGetHeight());//残ってrく図形
     ofEnableBlendMode(OF_BLENDMODE_ADD);//色を重ねるほど明るくなる
     
-    ofSetColor(ofColor::fromHsb(slider[4]*2,slider[5]*2,slider[6],175*2));
+    ofSetColor(ofColor::fromHsb(slider[4]*2,slider[5]*2|200,slider[6]|200,175*2));
     ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
-    ofRotateZ(slider[0]| 50);
-    ofRotateX(slider[1]| 50);
-    ofRotateY(slider[2]|ofGetFrameNum());//U60u
+    ofRotateZ(50|slider[0]);
+    ofRotateX(50|slider[1] );
+    ofRotateY(0|slider[2]|ofGetFrameNum());//U60u
     
     float lowValue = ofMap(fft.getLowVal(), 0, 1, 0, level);
     float midValue = ofMap(fft.getMidVal(), 0, 1, 0, level);
@@ -84,8 +84,8 @@ void Scene2::draw(){
     for(int i=0; i<200; i++){
         mSphere[i].draw();
         // int sphereSize =(float(nBandsToGet)/(150+knob[1]));
-        int sphereSize =(5+(fft.getMidVal()*20));
-        mSphere[i].set(sphereSize,5+(fft.getMidVal()*20));
+        int sphereSize =(5+(fft.getLowVal()*30));
+        mSphere[i].set(sphereSize,5+(fft.getLowVal()*30));
         
     }
 }

@@ -73,7 +73,7 @@ void avis3Scene::draw(){
     ofRotateY(angle);
     
     // 球
-    sphere.set(fft.getHighVal()*1000, 16);// 半径と面の細かさ
+    sphere.set(fft.getHighVal()*2000, 16);// 半径と面の細かさ
     sphere.setPosition(0, 0, 0); // 位置
     ofSetColor(141,253,255);
     sphere.drawWireframe(); // ワイヤーフレームを描画
@@ -84,7 +84,7 @@ void avis3Scene::draw(){
     ofRotateX(angle);
     ofRotateY(angle);
     // 球
-    sphere.set(fft.getLowVal()*1000, 36);// 半径と面の細かさ
+    sphere.set(fft.getLowVal()*2000, 36);// 半径と面の細かさ
     ofSetColor(255,93,144);
     sphere.setPosition(0, 0, 0); // 位置
     sphere.drawWireframe(); // ワイヤーフレームを描画

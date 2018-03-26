@@ -3,7 +3,12 @@
 #include "scene/avis3Scene.h"
 #include "scene/Scene2.h"
 #include "scene/Scene3.h"
-
+#include "scene/Scene4.h"
+#include "scene/Scene5.h"
+#include "scene/Scene6.h"
+#include "scene/Scene7.h"
+#include "scene/Scene8.h"
+#include "scene/Scene9.h"
 //--------------------------------------------------------------
 void ofApp::setup(){
     _scene = NULL;
@@ -174,6 +179,24 @@ void ofApp::changeScene(int index){
             case 3:
                 _scene = new Scene3;
                 break;
+            case 4:
+                _scene = new Scene4;
+                break;
+            case 5:
+                _scene = new Scene5;
+                break;
+                
+            case 6:
+                _scene = new Scene6;
+                break;
+            case 7:
+                _scene = new Scene7;
+                break;
+            case 8:
+                _scene = new Scene8;
+                break;
+          
+            
             default:
                 break;
         }

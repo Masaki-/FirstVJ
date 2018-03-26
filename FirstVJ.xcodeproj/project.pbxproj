@@ -15,7 +15,9 @@
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
 		21A150FAA5376B8DB7676506 /* avis3Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4D4AD0B580756B21090F9 /* avis3Scene.cpp */; };
 		226E603257DCF8763BB29AC3 /* korg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4565932BEE98FA22AEDEDEC7 /* korg.cpp */; };
+		2513867E86F2C90B9AD1D00F /* Scene6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52C21E28090367850F50EADC /* Scene6.cpp */; };
 		29938E05AF78B3DF7A591187 /* ofxFftw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F353204A917F4B2BCEEABE6 /* ofxFftw.cpp */; };
+		2B0EA81C46625DA7D15B37DB /* Scene7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3FC7F29D5BA10F1154AFFA /* Scene7.cpp */; };
 		3AEFE4FA8AD5C72671AD07F8 /* ofxRtMidiOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 712B183BC00EBFFB1EEA5AB8 /* ofxRtMidiOut.cpp */; };
 		47741AD4D543009E4DF29CEA /* ofxProcessFFT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 971B530AB93ACC5065D9489E /* ofxProcessFFT.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
@@ -33,7 +35,10 @@
 		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
 		ADE035B6DF990860548D0B9F /* sceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A5FB2E38BC65D415144CB40 /* sceneBase.cpp */; };
 		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
+		B2CAE3B6B9C65108D07BC842 /* Scene8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 630CFA665CCD3781D15D91CD /* Scene8.cpp */; };
 		B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */; };
+		B7F624C9C6D78C119D53B62F /* Scene5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FA6A0F02D4937EE2413CDA /* Scene5.cpp */; };
+		BB1315F2CC980D03922C25DB /* Scene4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 067A040D0CA41E54ACAEF841 /* Scene4.cpp */; };
 		BCC8D420CBA9217E437D2D76 /* ofxRtMidiIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F634AA6CA2E3C60F3B87B59A /* ofxRtMidiIn.cpp */; };
 		C3646CA1EF1E729040AF2BB4 /* myScene1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5577210B08997ED404F24CF0 /* myScene1.cpp */; };
 		C6FE64F74F1EA1D98C8F9847 /* ofxMidiMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E7EDA67EDF213FC0E83D17 /* ofxMidiMessage.cpp */; };
@@ -41,7 +46,9 @@
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		EDD3448A1F73BF611F4D46A8 /* ofxTrueTypeFontUC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43B2FDAED735D73FF734F634 /* ofxTrueTypeFontUC.cpp */; };
 		F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */; };
+		F6E7D6C01B3F2E112EB0533D /* ofxPostGlitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40C409F696FE990F95E1B9D3 /* ofxPostGlitch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,31 +83,41 @@
 /* Begin PBXFileReference section */
 		04F77E5C73A62E2E77C78EC6 /* ofxMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiOut.cpp; path = ../../../addons/ofxMidi/src/ofxMidiOut.cpp; sourceTree = SOURCE_ROOT; };
 		05F6CF127D4A621113D4A62F /* ofxMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidi.h; path = ../../../addons/ofxMidi/src/ofxMidi.h; sourceTree = SOURCE_ROOT; };
+		067A040D0CA41E54ACAEF841 /* Scene4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene4.cpp; path = src/scene/Scene4.cpp; sourceTree = SOURCE_ROOT; };
 		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		0E59C225B56376D1CB456120 /* Scene5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene5.h; path = src/scene/Scene5.h; sourceTree = SOURCE_ROOT; };
 		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
 		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		18FA6A0F02D4937EE2413CDA /* Scene5.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene5.cpp; path = src/scene/Scene5.cpp; sourceTree = SOURCE_ROOT; };
 		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
 		1CBD6F883000C78087DD5738 /* _kiss_fft_guts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = _kiss_fft_guts.h; path = ../../../addons/ofxFft/libs/kiss/_kiss_fft_guts.h; sourceTree = SOURCE_ROOT; };
 		1DE4D4AD0B580756B21090F9 /* avis3Scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = avis3Scene.cpp; path = src/scene/avis3Scene.cpp; sourceTree = SOURCE_ROOT; };
 		208298154B11456DCD0BE131 /* ofxRtMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRtMidiIn.h; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiIn.h; sourceTree = SOURCE_ROOT; };
+		22FDF81C4A468B788F424022 /* ofxTrueTypeFontUC.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTrueTypeFontUC.h; path = ../../../addons/ofxTrueTypeFontUC/src/ofxTrueTypeFontUC.h; sourceTree = SOURCE_ROOT; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		2BF3415E3FFF7456566C46D8 /* Note.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Note.h; path = ../../../addons/ofxMidi/src/Note.h; sourceTree = SOURCE_ROOT; };
 		2D0C0AA4436B2A16530BA991 /* fftw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fftw3.h; path = ../../../addons/ofxFft/libs/fftw/include/fftw3.h; sourceTree = SOURCE_ROOT; };
 		32CA89CD22339F4F9433CAF6 /* ofxFft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFft.cpp; path = ../../../addons/ofxFft/src/ofxFft.cpp; sourceTree = SOURCE_ROOT; };
 		34BABD8304B018AAF7DA44BE /* ofxMidiOutputManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiOutputManager.h; path = ../../../addons/ofxMidi/src/ofxMidiOutputManager.h; sourceTree = SOURCE_ROOT; };
 		3DD359247F3ED1550D8BB5C9 /* ofxMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiIn.cpp; path = ../../../addons/ofxMidi/src/ofxMidiIn.cpp; sourceTree = SOURCE_ROOT; };
+		40C409F696FE990F95E1B9D3 /* ofxPostGlitch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPostGlitch.cpp; path = ../../../addons/ofxPostGlitch/src/ofxPostGlitch.cpp; sourceTree = SOURCE_ROOT; };
 		4310BEFDE24FF04FEBEE8086 /* ofxBaseMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseMidi.h; path = ../../../addons/ofxMidi/src/ofxBaseMidi.h; sourceTree = SOURCE_ROOT; };
+		43B2FDAED735D73FF734F634 /* ofxTrueTypeFontUC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTrueTypeFontUC.cpp; path = ../../../addons/ofxTrueTypeFontUC/src/ofxTrueTypeFontUC.cpp; sourceTree = SOURCE_ROOT; };
 		4565932BEE98FA22AEDEDEC7 /* korg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = korg.cpp; path = src/scene/korg.cpp; sourceTree = SOURCE_ROOT; };
 		470CF04F1D4D1B38D5AA1797 /* ofxRtMidiOut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxRtMidiOut.h; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiOut.h; sourceTree = SOURCE_ROOT; };
 		470F407B811BB6649EC8062E /* ofxMidiOutputManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiOutputManager.cpp; path = ../../../addons/ofxMidi/src/ofxMidiOutputManager.cpp; sourceTree = SOURCE_ROOT; };
+		4823CD6B1C0D3B97A7017DD2 /* Scene4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene4.h; path = src/scene/Scene4.h; sourceTree = SOURCE_ROOT; };
 		4B053B6F1252BCFCFF0F59AC /* kiss_fft.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = kiss_fft.c; path = ../../../addons/ofxFft/libs/kiss/kiss_fft.c; sourceTree = SOURCE_ROOT; };
 		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		52C21E28090367850F50EADC /* Scene6.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene6.cpp; path = src/scene/Scene6.cpp; sourceTree = SOURCE_ROOT; };
 		5577210B08997ED404F24CF0 /* myScene1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = myScene1.cpp; path = src/myScene1.cpp; sourceTree = SOURCE_ROOT; };
 		5A5FB2E38BC65D415144CB40 /* sceneBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = sceneBase.cpp; path = src/sceneBase.cpp; sourceTree = SOURCE_ROOT; };
 		5F353204A917F4B2BCEEABE6 /* ofxFftw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFftw.cpp; path = ../../../addons/ofxFft/src/ofxFftw.cpp; sourceTree = SOURCE_ROOT; };
 		62D4795A9D9A36B2F634D62A /* Scene3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene3.cpp; path = src/scene/Scene3.cpp; sourceTree = SOURCE_ROOT; };
+		630CFA665CCD3781D15D91CD /* Scene8.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene8.cpp; path = src/scene/Scene8.cpp; sourceTree = SOURCE_ROOT; };
 		6663BAB46E81C24571C20ED2 /* Scene3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene3.h; path = src/scene/Scene3.h; sourceTree = SOURCE_ROOT; };
 		67BFC7F21E824F5A7FAC65E0 /* ofxEasyFft.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxEasyFft.cpp; path = ../../../addons/ofxFft/src/ofxEasyFft.cpp; sourceTree = SOURCE_ROOT; };
+		67DBED026597C0EE427F0379 /* ofxPostGlitch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPostGlitch.h; path = ../../../addons/ofxPostGlitch/src/ofxPostGlitch.h; sourceTree = SOURCE_ROOT; };
 		712B183BC00EBFFB1EEA5AB8 /* ofxRtMidiOut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxRtMidiOut.cpp; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiOut.cpp; sourceTree = SOURCE_ROOT; };
 		761FE04221DF9DD99BE9218A /* korg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = korg.h; path = src/scene/korg.h; sourceTree = SOURCE_ROOT; };
 		78D67A00EB899FAC09430597 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
@@ -123,15 +140,19 @@
 		A8793707281FD436C34316A5 /* RtMidi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = RtMidi.h; path = ../../../addons/ofxMidi/libs/rtmidi/RtMidi.h; sourceTree = SOURCE_ROOT; };
 		ABDEF0ACF05BF28F5C74E008 /* RtMidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = RtMidi.cpp; path = ../../../addons/ofxMidi/libs/rtmidi/RtMidi.cpp; sourceTree = SOURCE_ROOT; };
 		AD2DA7AEAD3A737052D65688 /* Scene2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene2.cpp; path = src/scene/Scene2.cpp; sourceTree = SOURCE_ROOT; };
+		AE3FC7F29D5BA10F1154AFFA /* Scene7.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Scene7.cpp; path = src/scene/Scene7.cpp; sourceTree = SOURCE_ROOT; };
+		B11FE09E274334604478807D /* pingPongBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pingPongBuffer.h; path = src/scene/pingPongBuffer.h; sourceTree = SOURCE_ROOT; };
 		B36431C04C788FEDB1ECD8FC /* ofxFft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFft.h; path = ../../../addons/ofxFft/src/ofxFft.h; sourceTree = SOURCE_ROOT; };
 		B76FA489151DBAF1616DF378 /* ofxMidiIn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiIn.h; path = ../../../addons/ofxMidi/src/ofxMidiIn.h; sourceTree = SOURCE_ROOT; };
 		B87C60311EC1FE841C1ECD89 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
 		BD0E7AC8BE205034D5B377A6 /* ofxMidiMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxMidiMessage.h; path = ../../../addons/ofxMidi/src/ofxMidiMessage.h; sourceTree = SOURCE_ROOT; };
 		C0E7EDA67EDF213FC0E83D17 /* ofxMidiMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxMidiMessage.cpp; path = ../../../addons/ofxMidi/src/ofxMidiMessage.cpp; sourceTree = SOURCE_ROOT; };
+		C37083D6297F94D382D16C23 /* Scene7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene7.h; path = src/scene/Scene7.h; sourceTree = SOURCE_ROOT; };
 		C70D8946940288799E82131E /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
 		C88333E71C9457E441C33474 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
 		CAB67BC7A1CC020FDAC5381B /* ofxEasyFft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxEasyFft.h; path = ../../../addons/ofxFft/src/ofxEasyFft.h; sourceTree = SOURCE_ROOT; };
 		CE67198F2891A8FFEA3686E6 /* ofxFftBasic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFftBasic.cpp; path = ../../../addons/ofxFft/src/ofxFftBasic.cpp; sourceTree = SOURCE_ROOT; };
+		D2AC581435EC5821C21E50B7 /* Scene6.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene6.h; path = src/scene/Scene6.h; sourceTree = SOURCE_ROOT; };
 		D8952DEFF3CE56AC1009A996 /* ofxFftw.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFftw.h; path = ../../../addons/ofxFft/src/ofxFftw.h; sourceTree = SOURCE_ROOT; };
 		D99054A56D15AA34B8E3A76B /* Scene2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene2.h; path = src/scene/Scene2.h; sourceTree = SOURCE_ROOT; };
 		DACFE8C08D7F4619176E65D7 /* kiss_fftr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = kiss_fftr.c; path = ../../../addons/ofxFft/libs/kiss/kiss_fftr.c; sourceTree = SOURCE_ROOT; };
@@ -146,6 +167,7 @@
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E74693FA11C0043D710991B2 /* Scene8.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Scene8.h; path = src/scene/Scene8.h; sourceTree = SOURCE_ROOT; };
 		ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
 		F634AA6CA2E3C60F3B87B59A /* ofxRtMidiIn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxRtMidiIn.cpp; path = ../../../addons/ofxMidi/src/desktop/ofxRtMidiIn.cpp; sourceTree = SOURCE_ROOT; };
 		FAF413753E9DFF53842FB385 /* avis3Scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = avis3Scene.h; path = src/scene/avis3Scene.h; sourceTree = SOURCE_ROOT; };
@@ -165,6 +187,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0816FAE6729FD8D7120D0B77 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				43B2FDAED735D73FF734F634 /* ofxTrueTypeFontUC.cpp */,
+				22FDF81C4A468B788F424022 /* ofxTrueTypeFontUC.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		14D2E3EE0233F84B1B324DD9 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,10 +236,23 @@
 			children = (
 				1DE4D4AD0B580756B21090F9 /* avis3Scene.cpp */,
 				FAF413753E9DFF53842FB385 /* avis3Scene.h */,
+				4565932BEE98FA22AEDEDEC7 /* korg.cpp */,
+				761FE04221DF9DD99BE9218A /* korg.h */,
+				B11FE09E274334604478807D /* pingPongBuffer.h */,
 				AD2DA7AEAD3A737052D65688 /* Scene2.cpp */,
 				D99054A56D15AA34B8E3A76B /* Scene2.h */,
 				62D4795A9D9A36B2F634D62A /* Scene3.cpp */,
 				6663BAB46E81C24571C20ED2 /* Scene3.h */,
+				067A040D0CA41E54ACAEF841 /* Scene4.cpp */,
+				4823CD6B1C0D3B97A7017DD2 /* Scene4.h */,
+				18FA6A0F02D4937EE2413CDA /* Scene5.cpp */,
+				0E59C225B56376D1CB456120 /* Scene5.h */,
+				52C21E28090367850F50EADC /* Scene6.cpp */,
+				D2AC581435EC5821C21E50B7 /* Scene6.h */,
+				AE3FC7F29D5BA10F1154AFFA /* Scene7.cpp */,
+				C37083D6297F94D382D16C23 /* Scene7.h */,
+				630CFA665CCD3781D15D91CD /* Scene8.cpp */,
+				E74693FA11C0043D710991B2 /* Scene8.h */,
 			);
 			name = scene;
 			sourceTree = "<group>";
@@ -254,6 +298,14 @@
 			name = rtmidi;
 			sourceTree = "<group>";
 		};
+		95D87FD7121C8B2D7D5F155C /* ofxTrueTypeFontUC */ = {
+			isa = PBXGroup;
+			children = (
+				0816FAE6729FD8D7120D0B77 /* src */,
+			);
+			name = ofxTrueTypeFontUC;
+			sourceTree = "<group>";
+		};
 		99DED6A5D3EDE030B1A80348 /* desktop */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +347,15 @@
 				F2022DF37286FECB8B9BA5B2 /* include */,
 			);
 			name = fftw;
+			sourceTree = "<group>";
+		};
+		A15491832FCD72B40A572147 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				40C409F696FE990F95E1B9D3 /* ofxPostGlitch.cpp */,
+				67DBED026597C0EE427F0379 /* ofxPostGlitch.h */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		A2C4D2900B6384FDE5E77208 /* kiss */ = {
@@ -339,6 +400,8 @@
 				BBC2B4228932C2AACC6701CF /* ofxFft */,
 				480A780D8D0308AE4A368801 /* ofxGui */,
 				2413C01760B1811BED0F502D /* ofxMidi */,
+				D92A719EC4DFB00CB4A3047D /* ofxPostGlitch */,
+				95D87FD7121C8B2D7D5F155C /* ofxTrueTypeFontUC */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -350,6 +413,14 @@
 				72C89FAFAC11F96856792042 /* libs */,
 			);
 			name = ofxFft;
+			sourceTree = "<group>";
+		};
+		D92A719EC4DFB00CB4A3047D /* ofxPostGlitch */ = {
+			isa = PBXGroup;
+			children = (
+				A15491832FCD72B40A572147 /* src */,
+			);
+			name = ofxPostGlitch;
 			sourceTree = "<group>";
 		};
 		E4328144138ABC890047C5CB /* Products */ = {
@@ -379,8 +450,6 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				4565932BEE98FA22AEDEDEC7 /* korg.cpp */,
-				761FE04221DF9DD99BE9218A /* korg.h */,
 				5577210B08997ED404F24CF0 /* myScene1.cpp */,
 				8146BB36CB5FF28A0ED57696 /* myScene1.hpp */,
 				38210A9855D9757B736E753B /* scene */,
@@ -501,6 +570,11 @@
 				226E603257DCF8763BB29AC3 /* korg.cpp in Sources */,
 				5B54564F2410B039F88A70EC /* Scene2.cpp in Sources */,
 				8289CB9D0169D1BA35E20AF5 /* Scene3.cpp in Sources */,
+				BB1315F2CC980D03922C25DB /* Scene4.cpp in Sources */,
+				B7F624C9C6D78C119D53B62F /* Scene5.cpp in Sources */,
+				2513867E86F2C90B9AD1D00F /* Scene6.cpp in Sources */,
+				2B0EA81C46625DA7D15B37DB /* Scene7.cpp in Sources */,
+				B2CAE3B6B9C65108D07BC842 /* Scene8.cpp in Sources */,
 				ADE035B6DF990860548D0B9F /* sceneBase.cpp in Sources */,
 				7A61C288AE942E5885881232 /* ofxEasyFft.cpp in Sources */,
 				D409288D137DB82107887FFD /* ofxFft.cpp in Sources */,
@@ -527,6 +601,8 @@
 				83D9F930112E0944444124EE /* ofxMidiOut.cpp in Sources */,
 				4D81648B35C3C5CA8CBE5928 /* ofxMidiOutputManager.cpp in Sources */,
 				63D0FD8734D5760B8080C901 /* RtMidi.cpp in Sources */,
+				F6E7D6C01B3F2E112EB0533D /* ofxPostGlitch.cpp in Sources */,
+				EDD3448A1F73BF611F4D46A8 /* ofxTrueTypeFontUC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +655,8 @@
 					../../../addons/ofxMidi/src,
 					../../../addons/ofxMidi/src/desktop,
 					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxPostGlitch/src,
+					../../../addons/ofxTrueTypeFontUC/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -634,6 +712,8 @@
 					../../../addons/ofxMidi/src,
 					../../../addons/ofxMidi/src/desktop,
 					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxPostGlitch/src,
+					../../../addons/ofxTrueTypeFontUC/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -683,6 +763,8 @@
 					../../../addons/ofxMidi/src,
 					../../../addons/ofxMidi/src/desktop,
 					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxPostGlitch/src,
+					../../../addons/ofxTrueTypeFontUC/src,
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -732,6 +814,8 @@
 					../../../addons/ofxMidi/src,
 					../../../addons/ofxMidi/src/desktop,
 					../../../addons/ofxMidi/src/ios,
+					../../../addons/ofxPostGlitch/src,
+					../../../addons/ofxTrueTypeFontUC/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
